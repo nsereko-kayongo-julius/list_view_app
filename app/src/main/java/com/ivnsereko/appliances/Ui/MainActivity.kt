@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
         list.add(Appliance("This is a mixer", "$400", "mixer", R.drawable.mixer))
         list.add(Appliance("This is akettlen", "$500", "kettle", R.drawable.kettle))
 
-        listView.setDivider(null);
-        listView.setDividerHeight(0);
+        listView.setDivider(null)
+        listView.setDividerHeight(0)
         listView.adapter = MyListAdapter(this, list)
 
 
