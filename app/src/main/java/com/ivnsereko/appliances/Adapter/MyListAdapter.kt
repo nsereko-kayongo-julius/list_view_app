@@ -30,7 +30,7 @@ class MyListAdapter(val context: Context, var list:ArrayList<Appliance>): BaseAd
         val applianceName: TextView = view.findViewById(R.id.tvItemName)
         val appliancePrice: TextView = view.findViewById(R.id.tvItemPrice)
 
-        imageView.setImageResource(list[position].imageId)
+        imageView.setImageResource(list[position].imageId);
         applianceName.text = list[position].name
         appliancePrice.text = list[position].price;
 
