@@ -32,7 +32,7 @@ class MyListAdapter(val context: Context, var list:ArrayList<Appliance>): BaseAd
 
         imageView.setImageResource(list[position].imageId)
         applianceName.text = list[position].name
-        appliancePrice.text = list[position].price
+        appliancePrice.text = list[position].price;
 
 
         return view
